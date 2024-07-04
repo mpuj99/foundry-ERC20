@@ -1,0 +1,219 @@
+Compiling 33 files with Solc 0.8.26
+Solc 0.8.26 finished in 3.00s
+Compiler run successful!
+Analysing contracts...
+Running tests...
+
+Ran 9 tests for test/OurTokenTest.t.sol:OurTokenTest
+[PASS] testAllowancesWorks() (gas: 77300)
+[PASS] testBobBalance() (gas: 13703)
+[PASS] testBurnTokens() (gas: 33428)
+[PASS] testInitialSupply() (gas: 27836)
+[PASS] testMintTokens() (gas: 33493)
+[PASS] testTokenName() (gas: 13348)
+[PASS] testTokenSymbol() (gas: 13435)
+[PASS] testTotalSupply() (gas: 16443)
+[PASS] testTransferTokens() (gas: 48791)
+Suite result: ok. 9 passed; 0 failed; 0 skipped; finished in 5.18ms (10.90ms CPU time)
+
+Ran 1 test suite in 10.11ms (5.18ms CPU time): 9 tests passed, 0 failed, 0 skipped (9 total tests)
+Uncovered for script/DeployOurToken.s.sol:
+
+Uncovered for src/ManualToken.sol:
+- Function "name" (location: source ID 30, line 10, chars 150-236, hits: 0)
+- Line (location: source ID 30, line 11, chars 212-229, hits: 0)
+- Statement (location: source ID 30, line 11, chars 212-229, hits: 0)
+- Function "decimals" (location: source ID 30, line 15, chars 243-317, hits: 0)
+- Line (location: source ID 30, line 16, chars 301-310, hits: 0)
+- Statement (location: source ID 30, line 16, chars 301-310, hits: 0)
+- Function "totalSupply" (location: source ID 30, line 19, chars 323-409, hits: 0)
+- Line (location: source ID 30, line 20, chars 386-402, hits: 0)
+- Statement (location: source ID 30, line 20, chars 386-402, hits: 0)
+- Function "balanceOf" (location: source ID 30, line 23, chars 415-530, hits: 0)
+- Line (location: source ID 30, line 24, chars 498-523, hits: 0)
+- Statement (location: source ID 30, line 24, chars 498-523, hits: 0)
+- Function "transfer" (location: source ID 30, line 27, chars 536-826, hits: 0)
+- Line (location: source ID 30, line 28, chars 600-664, hits: 0)
+- Statement (location: source ID 30, line 28, chars 600-664, hits: 0)
+- Statement (location: source ID 30, line 28, chars 626-664, hits: 0)
+- Statement (location: source ID 30, line 28, chars 626-647, hits: 0)
+- Statement (location: source ID 30, line 28, chars 650-664, hits: 0)
+- Line (location: source ID 30, line 29, chars 674-706, hits: 0)
+- Statement (location: source ID 30, line 29, chars 674-706, hits: 0)
+- Line (location: source ID 30, line 30, chars 716-741, hits: 0)
+- Statement (location: source ID 30, line 30, chars 716-741, hits: 0)
+- Line (location: source ID 30, line 31, chars 752-818, hits: 0)
+- Statement (location: source ID 30, line 31, chars 752-818, hits: 0)
+- Branch (branch: 0, path: 0) (location: source ID 30, line 31, chars 752-818, hits: 0)
+- Branch (branch: 0, path: 1) (location: source ID 30, line 31, chars 752-818, hits: 0)
+
+Uncovered for src/OurToken.sol:
+- Function "" (location: source ID 31, line 8, chars 162-270, hits: 0)
+- Line (location: source ID 31, line 9, chars 231-263, hits: 0)
+- Statement (location: source ID 31, line 9, chars 231-263, hits: 0)
+
+Anchors for Contract "MyToken" (solc 0.8.26, source ID 30):
+- IC 92 -> Item 19
+- Creation code
+  - Refers to item: Function "name" (location: source ID 30, line 10, chars 150-236, hits: 0)
+- IC 261 -> Item 20
+- Creation code
+  - Refers to item: Line (location: source ID 30, line 11, chars 212-229, hits: 0)
+- IC 261 -> Item 21
+- Creation code
+  - Refers to item: Statement (location: source ID 30, line 11, chars 212-229, hits: 0)
+- IC 152 -> Item 22
+- Creation code
+  - Refers to item: Function "decimals" (location: source ID 30, line 15, chars 243-317, hits: 0)
+- IC 339 -> Item 23
+- Creation code
+  - Refers to item: Line (location: source ID 30, line 16, chars 301-310, hits: 0)
+- IC 339 -> Item 24
+- Creation code
+  - Refers to item: Statement (location: source ID 30, line 16, chars 301-310, hits: 0)
+- IC 122 -> Item 25
+- Creation code
+  - Refers to item: Function "totalSupply" (location: source ID 30, line 19, chars 323-409, hits: 0)
+- IC 322 -> Item 26
+- Creation code
+  - Refers to item: Line (location: source ID 30, line 20, chars 386-402, hits: 0)
+- IC 322 -> Item 27
+- Creation code
+  - Refers to item: Statement (location: source ID 30, line 20, chars 386-402, hits: 0)
+- IC 182 -> Item 28
+- Creation code
+  - Refers to item: Function "balanceOf" (location: source ID 30, line 23, chars 415-530, hits: 0)
+- IC 348 -> Item 29
+- Creation code
+  - Refers to item: Line (location: source ID 30, line 24, chars 498-523, hits: 0)
+- IC 348 -> Item 30
+- Creation code
+  - Refers to item: Statement (location: source ID 30, line 24, chars 498-523, hits: 0)
+- IC 230 -> Item 31
+- Creation code
+  - Refers to item: Function "transfer" (location: source ID 30, line 27, chars 536-826, hits: 0)
+- IC 418 -> Item 32
+- Creation code
+  - Refers to item: Line (location: source ID 30, line 28, chars 600-664, hits: 0)
+- IC 418 -> Item 33
+- Creation code
+  - Refers to item: Statement (location: source ID 30, line 28, chars 600-664, hits: 0)
+- IC 420 -> Item 34
+- Creation code
+  - Refers to item: Statement (location: source ID 30, line 28, chars 626-664, hits: 0)
+- IC 429 -> Item 35
+- Creation code
+  - Refers to item: Statement (location: source ID 30, line 28, chars 626-647, hits: 0)
+- IC 420 -> Item 36
+- Creation code
+  - Refers to item: Statement (location: source ID 30, line 28, chars 650-664, hits: 0)
+- IC 450 -> Item 37
+- Creation code
+  - Refers to item: Line (location: source ID 30, line 29, chars 674-706, hits: 0)
+- IC 450 -> Item 38
+- Creation code
+  - Refers to item: Statement (location: source ID 30, line 29, chars 674-706, hits: 0)
+- IC 535 -> Item 39
+- Creation code
+  - Refers to item: Line (location: source ID 30, line 30, chars 716-741, hits: 0)
+- IC 535 -> Item 40
+- Creation code
+  - Refers to item: Statement (location: source ID 30, line 30, chars 716-741, hits: 0)
+- IC 620 -> Item 41
+- Creation code
+  - Refers to item: Line (location: source ID 30, line 31, chars 752-818, hits: 0)
+- IC 620 -> Item 42
+- Creation code
+  - Refers to item: Statement (location: source ID 30, line 31, chars 752-818, hits: 0)
+- IC 654 -> Item 43
+- Creation code
+  - Refers to item: Branch (branch: 0, path: 0) (location: source ID 30, line 31, chars 752-818, hits: 0)
+- IC 658 -> Item 44
+- Creation code
+  - Refers to item: Branch (branch: 0, path: 1) (location: source ID 30, line 31, chars 752-818, hits: 0)
+
+Anchors for Contract "OurToken" (solc 0.8.26, source ID 31):
+- IC 5 -> Item 10
+- Runtime code
+  - Refers to item: Function "" (location: source ID 31, line 8, chars 162-270, hits: 0)
+- IC 193 -> Item 11
+- Runtime code
+  - Refers to item: Line (location: source ID 31, line 9, chars 231-263, hits: 0)
+- IC 193 -> Item 12
+- Runtime code
+  - Refers to item: Statement (location: source ID 31, line 9, chars 231-263, hits: 0)
+- IC 360 -> Item 13
+- Creation code
+  - Refers to item: Function "mint" (location: source ID 31, line 13, chars 277-370, hits: 1)
+- IC 838 -> Item 14
+- Creation code
+  - Refers to item: Line (location: source ID 31, line 14, chars 341-363, hits: 1)
+- IC 838 -> Item 15
+- Creation code
+  - Refers to item: Statement (location: source ID 31, line 14, chars 341-363, hits: 1)
+- IC 466 -> Item 16
+- Creation code
+  - Refers to item: Function "burn" (location: source ID 31, line 17, chars 376-469, hits: 1)
+- IC 1070 -> Item 17
+- Creation code
+  - Refers to item: Line (location: source ID 31, line 18, chars 440-462, hits: 1)
+- IC 1070 -> Item 18
+- Creation code
+  - Refers to item: Statement (location: source ID 31, line 18, chars 440-462, hits: 1)
+
+Anchors for Contract "stdJson" (solc 0.8.26, source ID 7):
+
+Anchors for Contract "stdMath" (solc 0.8.26, source ID 8):
+
+Anchors for Contract "stdStorageSafe" (solc 0.8.26, source ID 9):
+
+Anchors for Contract "stdToml" (solc 0.8.26, source ID 11):
+
+Anchors for Contract "OurTokenTest" (solc 0.8.26, source ID 32):
+
+Anchors for Contract "MockERC20" (solc 0.8.26, source ID 21):
+
+Anchors for Contract "StdStyle" (solc 0.8.26, source ID 10):
+
+Anchors for Contract "safeconsole" (solc 0.8.26, source ID 23):
+
+Anchors for Contract "console" (solc 0.8.26, source ID 15):
+
+Anchors for Contract "stdError" (solc 0.8.26, source ID 5):
+
+Anchors for Contract "MockERC721" (solc 0.8.26, source ID 22):
+
+Anchors for Contract "DeployOurToken" (solc 0.8.26, source ID 29):
+- IC 100 -> Item 0
+- Creation code
+  - Refers to item: Function "run" (location: source ID 29, line 12, chars 247-436, hits: 9)
+- IC 212 -> Item 1
+- Creation code
+  - Refers to item: Line (location: source ID 29, line 13, chars 299-318, hits: 9)
+- IC 212 -> Item 2
+- Creation code
+  - Refers to item: Statement (location: source ID 29, line 13, chars 299-318, hits: 9)
+- IC 307 -> Item 3
+- Creation code
+  - Refers to item: Line (location: source ID 29, line 14, chars 328-376, hits: 9)
+- IC 307 -> Item 4
+- Creation code
+  - Refers to item: Statement (location: source ID 29, line 14, chars 328-376, hits: 9)
+- IC 319 -> Item 5
+- Creation code
+  - Refers to item: Statement (location: source ID 29, line 14, chars 348-376, hits: 9)
+- IC 408 -> Item 6
+- Creation code
+  - Refers to item: Line (location: source ID 29, line 15, chars 386-404, hits: 9)
+- IC 408 -> Item 7
+- Creation code
+  - Refers to item: Statement (location: source ID 29, line 15, chars 386-404, hits: 9)
+- IC 503 -> Item 8
+- Creation code
+  - Refers to item: Line (location: source ID 29, line 16, chars 414-429, hits: 9)
+- IC 503 -> Item 9
+- Creation code
+  - Refers to item: Statement (location: source ID 29, line 16, chars 414-429, hits: 9)
+
+Anchors for Contract "stdStorage" (solc 0.8.26, source ID 9):
+
